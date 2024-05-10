@@ -1,0 +1,21 @@
+.btn {
+    font-size: 1.25rem/* 20px */;
+    line-height: 1.75rem/* 28px */
+}
+
+.div-btn{
+    
+    height: 2px/* 4px */;
+    z-index: 10;
+
+    margin: 1rem/* 16px */;
+}
+
+
+.btn:hover  .div-btn {
+
+    background-color:black;
+    transition-duration: 0.5s;
+
+
+}
