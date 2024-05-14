@@ -1,0 +1,109 @@
+.img{
+
+  position: relative;
+}
+
+.aaa{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width:70% ;
+    color: azure;
+    position:absolute;
+    top: 150px;
+    left: 10%;
+    
+    
+    }
+    .bttn{
+    margin-top: 10%;
+      padding: 20px !important ; 
+      width: 160px;
+    }
+    .bttn:hover{
+      background-color: aqua !important;
+    }
+    
+    .type{
+    font-size:18px ;
+      position: absolute;
+      color: rgb(255, 255, 255);
+      margin-top: 15px;
+      width: 100%;
+    
+    
+      
+    }
+    
+    
+
+    
+    .aa{
+    color: azure;
+    font-size: 75px;
+    font-weight: 100;
+    
+    }
+    .aa span{
+    
+      color: rgb(57, 159, 210);
+      font-weight: bold;
+    }
+
+
+
+
+
+
+    @media (max-width: 992px) {  
+      .aa {font-size:60px;}
+      .aaa{ 
+        top: 150px;
+        left: 5%;
+      }
+      .type {font-size: 16px;}
+      .bttn{ 
+        padding: 10px !important ; 
+        width: 120px;
+        margin-top: 15%;
+      
+      }
+    }
+    
+    @media (max-width: 544px) {  
+      .aa {font-size:50px;}
+      .aaa{ 
+        top: 150px;
+        left: 5%;
+      }
+      .bttn{
+        margin-top: 20%;
+      }
+    }
+
+
+    
+  
+    .zzz{
+      animation: ttt ;
+      animation-fill-mode: both;
+      animation-timeline: view(block) !important;
+      animation-range:cover 0% cover 100% !important;
+      view-timeline-inset: 30%;
+    }
+    
+      @keyframes ttt{  
+        0%{
+          opacity: 0; scale: 0.5;
+        }
+        30%{
+          opacity:1 ; scale:1 ;
+        }
+        70%{
+          opacity:1 ; scale:1 ;
+        }
+        100%{
+          opacity: 0; scale: 0.5;
+        }
+      }

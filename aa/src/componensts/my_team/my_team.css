@@ -1,0 +1,50 @@
+.qq{
+
+    border: none !important;
+
+}
+
+.card_img{
+
+  border-radius:0;
+
+}
+
+.card-bk{
+
+    background-color: rgb(67, 70, 72) !important;
+
+}
+
+.card-bk:hover{
+
+    opacity:0.5 ;
+    transform: translateY(-10px);
+   transition-duration: 800ms;
+   cursor: pointer;
+
+}
+
+
+.zzz{
+  animation: ttt ;
+  animation-fill-mode: both;
+  animation-timeline: view(block) !important;
+  animation-range:cover 0% cover 100% !important;
+  view-timeline-inset: 30%;
+}
+
+@keyframes ttt{  
+  0%{
+    opacity: 0; scale: 0.5;
+  }
+  30%{
+    opacity:1 ; scale:1 ;
+  }
+  70%{
+    opacity:1 ; scale:1 ;
+  }
+  100%{
+    opacity: 0; scale: 0.5;
+  }
+}
