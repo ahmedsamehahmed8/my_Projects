@@ -1,0 +1,20 @@
+.qwe{
+
+    animation: asw ;
+    animation-timeline: view(block);
+    animation-range: contain 0% contain 100%;
+    view-timeline-inset: 30%;
+  }
+  
+  
+
+
+
+
+
+@keyframes asw{
+
+    50%{
+        opacity:50%;  
+        }
+}
