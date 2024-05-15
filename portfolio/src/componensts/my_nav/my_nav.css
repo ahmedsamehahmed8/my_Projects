@@ -1,0 +1,37 @@
+
+
+.ss{
+    font-weight: 500;
+    font-size: 14px;
+    color: gray;
+    
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+
+.icon{
+background-color: rgb(255, 255, 255) !important;
+border: none ;
+
+}
+
+.icon:hover{
+background-color: rgb(194, 194, 194) !important ;
+border: none;
+}
+
+.ddm{
+    width: 30rem !important;
+    position: absolute  !important;
+    
+}
+.nav_bard{
+    font-size: 30px;
+
+}
+
+.nav_bard:hover{
+    color: rgb(83, 83, 83);
+}

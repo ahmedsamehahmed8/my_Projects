@@ -1,0 +1,50 @@
+.servic-bk{
+    background-color: transparent !important;
+    border: none !important;
+    }
+    
+    .servic-bkk{
+    background-color: transparent !important;
+    border: none !important;
+    }
+    
+    
+    .servic-bkk-mid{
+    background-color: transparent !important;
+    border: none !important;
+    }
+        
+    .servic-bk-mid{
+        background-color: rgb(90, 87, 87) !important;
+        border: none !important;
+    }
+    
+    
+    .servic-bk:hover{
+        background-color: rgb(90, 87, 87) !important;
+        transition-duration: 1000ms;
+        cursor: pointer;
+    }
+
+    .zzz{
+      animation: ttt ;
+      animation-fill-mode: both;
+      animation-timeline: view(block) !important;
+      animation-range:cover 0% cover 100% !important;
+      view-timeline-inset: 30%;
+    }
+    
+      @keyframes ttt{  
+        0%{
+          opacity: 0; scale: 0.5;
+        }
+        30%{
+          opacity:1 ; scale:1 ;
+        }
+        70%{
+          opacity:1 ; scale:1 ;
+        }
+        100%{
+          opacity: 0; scale: 0.5;
+        }
+      }

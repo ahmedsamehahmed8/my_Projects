@@ -1,0 +1,57 @@
+span{
+    
+    color: rgb(57, 159, 210);
+    font-weight: bold;
+}
+
+.bg_con{
+
+background-color: rgb(32, 32, 32);
+
+}
+
+.text_aria{
+
+background-color: transparent !important;
+border: 1px solid rgb(57, 159, 210);
+border-radius: 0;
+font-size: large;
+color: aliceblue;
+}
+
+/* .text_aria:hover
+{
+    color: aliceblue;   
+} */
+.text_aria:focus{
+    color: aliceblue;   
+    box-shadow: none;
+    border-color:rgb(57, 159, 210);
+}
+
+
+
+
+
+.zzz{
+    animation: ttt ;
+    animation-fill-mode: both;
+    animation-timeline: view(block) !important;
+    animation-range:cover 0% cover 100% !important;
+    view-timeline-inset: 30%;
+}
+
+    @keyframes ttt{  
+    0%{
+        opacity: 0; scale: 0.5;
+    }
+    30%{
+        opacity:1 ; scale:1 ;
+    }
+    70%{
+    opacity:1 ; scale:1 ;
+    }
+    100%{
+    opacity: 0; scale: 0.5;
+    }
+    }
