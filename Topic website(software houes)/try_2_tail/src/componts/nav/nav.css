@@ -1,0 +1,37 @@
+.btn:hover{
+
+
+color:#155e75;
+
+}
+
+
+.win{
+
+
+    visibility: hidden;
+
+
+}
+
+
+.btn:hover .win{
+
+
+    visibility: visible;
+
+
+}
+
+.icon{
+
+    color: "#ffffff"
+}
+
+.btn:hover .icon{
+
+
+    color:#155e75;
+
+
+}
