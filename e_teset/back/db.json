@@ -1,0 +1,95 @@
+{
+  "users": [
+    {
+      "id": "21b4",
+      "confirm_password": "11111",
+      "password": "11111",
+      "gender": "man",
+      "age": 23,
+      "username": "ahmedsameh",
+      "lname": "sameh",
+      "fname": "ahmed"
+    },
+    {
+      "id": "214",
+      "confirm_password": "11111",
+      "password": "11111",
+      "gender": "man",
+      "age": 23,
+      "username": "ahmedsameh1",
+      "lname": "sameh",
+      "fname": "ahmed"
+    },
+    {
+      "id": "21b",
+      "confirm_password": "11111",
+      "password": "11111",
+      "gender": "man",
+      "age": 23,
+      "username": "ahmedsameh2",
+      "lname": "sameh",
+      "fname": "ahmed"
+    }
+  ],"admin": [
+    {
+      "id": "21b4",
+      "confirm_password": "11111",
+      "password": "55555",
+      "gender": "man",
+      "age": 23,
+      "username": "ahmedsameh123",
+      "lname": "sameh",
+      "fname": "ahmed"
+    }
+  ],
+  "products": [
+    {
+      "id": "0",
+      "name": "item1",
+      "phonename": "name1",
+      "color": "red",
+      "price": "1",
+      "instok": "20"
+    },
+    {
+      "id": "1",
+      "name": "item2",
+      "phonename": "name2",
+      "color": "red",
+      "price": "2",
+      "instok": "20"
+    },
+    {
+      "id": "2",
+      "name": "item3",
+      "phonename": "name3",
+      "color": "red",
+      "price": "3",
+      "instok": "20"
+    },
+    {
+      "id": "3",
+      "name": "item4",
+      "phonename": "name4",
+      "color": "red",
+      "price": "4",
+      "instok": "20"
+    },
+    {
+      "id": "4",
+      "name": "item5",
+      "phonename": "name5",
+      "color": "red",
+      "price": "5",
+      "instok": "20"
+    },
+    {
+      "id": "5",
+      "name": "item6",
+      "phonename": "name6",
+      "color": "red",
+      "price": "6",
+      "instok": "20"
+    }
+  ]
+}
