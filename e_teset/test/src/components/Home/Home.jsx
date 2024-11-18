@@ -20,13 +20,15 @@ function Home() {
 
 
   return (
-<>
-<div className='w-screen h-5'>
-  <button className='p-5' type='button' onClick={()=> nave('/login')} >login</button>
+    <div className=' bg-neutral-900  h-auto w-auto '>
+
+< div className=' container mx-auto '>
+<div className=' p-5   text-white flex justify-around bg-gray-800'>
+  <button className='' type='button' onClick={()=> nave('/login')} >login</button>
   <button type='button' onClick={()=> nave('/signup')} >signup</button>
 </div>
 
-  <div className='p-10'>
+  <div className='p-10 flex flex-wrap'>
     {data.map((e)=>{
       if(e.instok <= 0  ){
         return(
@@ -37,7 +39,8 @@ function Home() {
           phonename={e.phonename}
           price={e.price} 
           color={e.color}
-          instok={e.instok} />
+          instok={e.instok}
+          photo = {e.photo}/>
         </div>
         )
       }else{
@@ -48,14 +51,16 @@ function Home() {
         phonename={e.phonename}
         price={e.price} 
         color={e.color}
-        instok={e.instok} />
+        instok={e.instok}
+        photo = {e.photo} />
       )
     }
   }
   )
   }
   </div>
-  </>
+  </div>
+    </div>
   )
 }
 

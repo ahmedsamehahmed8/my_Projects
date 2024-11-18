@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import { useSelector,useDispatch } from 'react-redux'
 import { buy_item } from '../../../redux/products/product'
 
-function card(props) {
+function CardL(props) {
   let nav = useNavigate()
   let dispatch = useDispatch()
   let data = useSelector(state =>state.product.data)
@@ -20,7 +20,6 @@ let buyaction = (id)=>{
 
 let add_to_Packet =(id)=>{
   axios.get(`http://localhost:3000/products/${id}`).then(e=>dispatch(buy_item(e.data)))
- nav('/login')
 }
 
   let ee = useSelector(state =>state.product.Packet)
@@ -30,11 +29,11 @@ let add_to_Packet =(id)=>{
   return (
     <div className='outline outline-1 p-10 m-10 text-white rounded-3xl flex flex-col hover:scale-110 duration-300 hover:outline-blue-500 '>
     
-    <div className='p-1 m-1 '>phone name : {props.phonename}</div>
+    <div className='p-1 m-1'>phone name : {props.phonename}</div>
     <div className='p-1 m-1'>color : {props.color}</div>
     <div className='p-1 m-1'> price : {props.price}</div>
     <div className='p-1 m-1'> left {props.instok}</div>
-    <div className='w-48 h-48'>
+        <div className='w-48 h-48'>
     <img src={props.photo} alt="" />
     </div>
     {/* <button onClick={()=>{buyaction(props.id)}} className='bg-emerald-600' >buy one </button> */}
@@ -48,4 +47,4 @@ let add_to_Packet =(id)=>{
   )
 }
 
-export default card
+export default CardL
