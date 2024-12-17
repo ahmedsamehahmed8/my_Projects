@@ -7,6 +7,8 @@ type ttt ={
     name:string;
     brand:string;
     instok:number;
+    price:number ;
+    quantity:number;
     photo:string;
 }[]
 

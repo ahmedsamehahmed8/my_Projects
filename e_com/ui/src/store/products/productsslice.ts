@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import productapi from "./act/actproductsslice";
 
 type Tinit ={
-    product:{id:number,name:string,brand:string,instok:number,photo:string}[],
+    product:{id:number,name:string,brand:string,instok:number,price:number  ,quantity:number,photo:string}[],
     loading:"idle" | "pending" | "succeeded" | "failed",
     error : string | null
 }

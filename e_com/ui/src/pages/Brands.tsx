@@ -1,7 +1,11 @@
-import React from "react";
+import Brand from "@compontes/e-com/brand";
 
 function Brands() {
-  return <div>Brands</div>;
+  return (
+    <div className="w-screen flex">
+      <Brand />
+    </div>
+  );
 }
 
 export default Brands;

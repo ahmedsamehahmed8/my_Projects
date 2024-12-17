@@ -6,8 +6,12 @@ type tt = {
   children: React.ReactNode;
 };
 const Loadding = ({ loading, error, children }: tt) => {
+  console.log(loading);
+
   if (loading === "pending") {
-    return <div> wait </div>;
+    console.log("dfsa");
+
+    return <div className="text-8xl"> wait </div>;
   }
   if (loading === "failed") {
     return <div> {error} </div>;
